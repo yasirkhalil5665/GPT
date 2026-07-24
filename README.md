@@ -16,7 +16,8 @@ bigram-transformer/
 │   ├── train.py          # training loop, evaluation, checkpoint saving
 │   └── generate.py       # loading a checkpoint and sampling text
 ├── notebooks/
-│   └── exploration.ipynb  # experimentation/visualization only, imports from src/
+│   |── all_in_one.ipynb  # My code actually(Sums up the whole thing)
+|   └── exploration.ipynb  # experimentation/visualization only, imports from src/
 ├── checkpoints/            # saved model weights (gitignored)
 ├── requirements.txt
 └── README.md
