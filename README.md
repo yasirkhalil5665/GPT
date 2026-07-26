@@ -1,4 +1,4 @@
-# Mini Transformer Language Model
+# Mini Transformer 
 
 A character-level language model trained on the Tiny Shakespeare dataset, built up from a simple bigram baseline to a small Transformer (multi-head self-attention, feed-forward blocks, residual connections, layer norm, dropout).
 
