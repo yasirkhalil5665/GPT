@@ -16,9 +16,13 @@ bigram-transformer/
 │   ├── train.py          # training loop, evaluation, checkpoint saving
 │   └── generate.py       # loading a checkpoint and sampling text
 ├── notebooks/
-│   |── all_in_one.ipynb  # My code actually(Sums up the whole thing)
+│   |── baseline.ipynb  # My code actually(Sums up the whole thing)
+│   |── better_model.ipynb  # My code with better results
 |   └── exploration.ipynb  # experimentation/visualization only, imports from src/
-├── checkpoints/            # saved model weights (gitignored)
+├── checkpoints/
+|   ├── loss_curve.png         # saved model weights (gitignored)
+|   |── result_comparsion.txt   #Baseline and updated moodel
+|   └── train_log.txt       
 ├── requirements.txt
 └── README.md
 ```
