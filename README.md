@@ -1,4 +1,4 @@
-# Bigram → Mini Transformer Language Model
+# Mini Transformer 
 
 A character-level language model trained on the Tiny Shakespeare dataset, built up from a simple bigram baseline to a small Transformer (multi-head self-attention, feed-forward blocks, residual connections, layer norm, dropout).
 
@@ -16,7 +16,8 @@ bigram-transformer/
 │   ├── train.py          # training loop, evaluation, checkpoint saving
 │   └── generate.py       # loading a checkpoint and sampling text
 ├── notebooks/
-│   └── exploration.ipynb  # experimentation/visualization only, imports from src/
+│   |── all_in_one.ipynb  # My code actually(Sums up the whole thing)
+|   └── exploration.ipynb  # experimentation/visualization only, imports from src/
 ├── checkpoints/            # saved model weights (gitignored)
 ├── requirements.txt
 └── README.md
