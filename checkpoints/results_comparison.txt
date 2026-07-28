@@ -1,0 +1,4 @@
+baseline_test_loss=1.9125
+improved_test_loss=1.6416562795639038
+delta=0.2708437204360963
+params_k=1204.096
